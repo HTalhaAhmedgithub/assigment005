@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#48649F, #3B5998, #3B5998);
+    border-bottom: 1px solid #253a69;
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+.login_form{
+    display: flex;
+    position: absolute;
+    font-family: verdana;
+    left: 58%;
+    top: 15px;
+}
+.login_btn a{
+    text-decoration: none;
+}
+.login_form .email,
+.login_form .password{
+    padding-left: 10px;
+}
+.login_form .email .font,
+.login_form .password .font{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.login_form .email input,
+.login_form .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.login_form button{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
+.login_form button:hover{
+    background: #3B5998;
+}
+
+body{
+    background-color: #D5E1EF;
+    font-family: sans-serif;
+}
+.card{
+    height: 300px;
+    width: 460px;
+    background-color: aliceblue;
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    box-shadow: inset;
+    padding: 10px;
+    border-radius: 24px;
+    box-shadow: 10px 10px 5px rgba(189, 207, 212, 0.452);
+   
+}
+
+.srch{
+    display: flex;
+    padding: 12px 60px;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #9ba1af;
+}
+
+.c-b{
+    padding: 5px 15px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+.achr{
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    background-color: royalblue;
+    color:white;
+    text-decoration: none;
+
+
+}
+.achra{
+    text-decoration: none;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    background-color: rgb(184, 187, 196);
+    color:rgb(10, 10, 10);
+}
+button a{
+    text-decoration: none;
+}
